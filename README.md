@@ -59,4 +59,4 @@ As described in the paper, depending of the relationshp between $T_s$ and $T_r$ 
 ![REGULAR](images/NOALT.png)
 
 
-The former case show a 2:1 alternating regime. The latter, a regular periodic calcium release regime. ii
+The former case show a 2:1 alternating regime. The latter, a regular periodic calcium release regime.
