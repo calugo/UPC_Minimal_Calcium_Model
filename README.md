@@ -3,8 +3,8 @@
 This repository contains files which implement a fourth order Runge-Kutta method to solve the system
 
 $$
-\dot{c}_j = I_{s}(t)+g_{rel}c_{rel}\frac{k_ac_j^2}{k_{om}+k_ac_j^2}(c_{SR}-c_j) - (c_j-c_o)/\tau_{diff} \\
-\dot{c}_{rel} = k_{im}(1-c_{rel}) - k_ic_jc_{rel}
+\dot{c}_j = I_{s}(t)+g_{rel}c_{rel}\frac{k_ac_j^2}{k_{om}+k_ac_j^2}(c_{SR}-c_j) - (c_j-c_o)/\tau_{diff}$$
+$$\dot{c}_{rel} = k_{im}(1-c_{rel}) - k_ic_jc_{rel}
 $$
 
 The programs have some dependencies:
