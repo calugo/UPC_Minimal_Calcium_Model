@@ -1,6 +1,7 @@
 # UPC_Minimal_Calcium_Model
 
-This repository contains files which implement a fourth order Runge-Kutta method to solve the system
+This repository contains files which implement a fourth order Runge-Kutta method to solve the system introduced in the paper [Minimal model for calcium alternans due to
+SR release refractoriness](https://doi.org/10.1063/1.5000709)
 
 $$
 \dot{c}_j = I_{s}(t)+g_{rel}c_{rel}\frac{k_ac_j^2}{k_{om}+k_ac_j^2}(c_{SR}-c_j) - (c_j-c_o)/\tau_{diff}$$
@@ -60,3 +61,5 @@ As described in the paper, depending of the relationshp between $T_s$ and $T_r$ 
 
 
 The former case show a 2:1 alternating regime. The latter, a regular periodic calcium release regime.
+
+[A live demo can be found here](https://calugo.github.io/UPC_Minimal_Calcium_Model/)
