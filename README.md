@@ -16,6 +16,10 @@ The programs have some dependencies:
 
 To compile the C version I used `g++ -o calcium calcium.cc`.
 
+The file `cark.cc` is the file exposing the functions compiled in WASM. This file was compiled using:
+
+`emcc cark.cc -o cark.js -sEXPORTED_RUNTIME_METHODS=ccall,cwrap -sEXPORT_ES6 -sMODULARIZE -sMALLOC=dlmalloc -sALLOW_MEMORY_GROWTH=1 -sEXPORTED_FUNCTIONS=_malloc,_free,_I_s,_c_i,_c_r,_rk`
+
 ## Usage.
 The three versions take three arguments: $T_s$, $T_r$ and $N$.
 
