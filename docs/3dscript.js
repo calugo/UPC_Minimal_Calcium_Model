@@ -59,7 +59,7 @@ points3.push( new THREE.Vector3( 0.85, 0, 0 ) );;
 const geometry3 = new THREE.BufferGeometry().setFromPoints( points3 );
 const ax3 = new THREE.Line( geometry3, material );
 ///////////////////////////////////////////////////
-const fcolor = 0x006699;
+const fcolor = 0xe5fc0f;
 const matLite = new THREE.MeshBasicMaterial( {
     color: fcolor,
     transparent: true,
