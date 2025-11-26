@@ -118,10 +118,10 @@ function init(){
         document.body.appendChild( renderer.domElement );
 
         // Controls
-				const controls = new OrbitControls( camera, renderer.domElement );
-				controls.damping = 0.2;
+	const controls = new OrbitControls( camera, renderer.domElement );
+	controls.damping = 0.2;
         controls.enableRotate = false;
-				controls.addEventListener( 'change', render );
+	controls.addEventListener( 'change', render );
 
         window.addEventListener( 'resize', onWindowResize );
         onWindowResize();
