@@ -79,7 +79,7 @@ function init(){
         xp = 0.0;
         yp = 0.0;
         zp = 0.0;
-        Nb = 5;
+        Nb = 15;
         tf = Nb*Ts;
 
 				scene = new THREE.Scene();
