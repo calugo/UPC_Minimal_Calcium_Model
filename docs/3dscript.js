@@ -307,7 +307,7 @@ function Play(){
       jm++;
     }
 
-    let sn = 'Cr*: '+parseFloat(Yrmax).toFixed(2) +' mM, '+'Cs*: '+parseFloat(Ymax).toFixed(2) +'mM, '+'Tr/Ts: '+parseFloat(Tr/Ts).toFixed(2);
+    let sn = 'Cr*: '+parseFloat(Yrmax).toFixed(2) +' mM, '+'Ci*: '+parseFloat(Ymax).toFixed(2) +'mM, '+'Tr/Ts: '+parseFloat(Tr/Ts).toFixed(2);
     //setIntTitle('Ready');
     setIntTitle(sn);
     render();
